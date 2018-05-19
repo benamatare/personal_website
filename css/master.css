@@ -1,0 +1,54 @@
+body, p, h1, h2, h3, h4, section {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+/* Maring is amount of space between and adjecent to two elements */
+/* Padding is the amout of space before oyu see childern elemtsn */
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: 50px;
+  background-color: red;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-size: 6em;
+  /*  set the lie heigh tto the heigh tof the parent elemtn!*/
+  /* em means, when im drawing the font, make it a multiple of your base font  */
+}
+.logo::after {
+  content: "B";
+}
+
+.logo.small {
+  transform: scale(0.5);
+}
+
+h1 {
+  font-size: 7em;
+  text-transform: uppercase;
+  color: white;
+}
+
+h2 {
+  font-size: 6em;
+  letter-spacing: 0.1em;
+}
+
+h2 b {
+  color: gray;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h3 a {
+  color: #b5bfce;
+  text-decoration: none;
+}
+/* display type by default is in-line, just take up the amount fo space its told to contrain, block turns it into a nice elemt with its own sapve  */

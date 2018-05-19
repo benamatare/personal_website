@@ -1,0 +1,55 @@
+.portfolio {
+  height: 100vh;
+  background-color: #454a5b;
+}
+
+.portfolio .content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.portfolio .content h3 {
+  margin-bottom: 30px;
+}
+
+.portfolio .gallery {
+  display: flex;
+  flex-direction: row;
+}
+
+.portfolio .gallery a {
+  display: inline-block;
+  width: 33.3vw;
+  height: 33.3vw;
+}
+
+.portfolio .gallery a:after {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0);
+  transition: all 0.5s;
+}
+.portfolio .gallery a:hover:after {
+  background-color: rgba(0,0,0,0.5);
+}
+
+.portfolio .statdota {
+  background-image: url(../images/statdota_demo_sc.png);
+  background-size: cover;
+}
+
+.portfolio .moodify {
+  background-image: url(../images/moodify_demo_sc.png);
+  background-size: cover;
+}
+
+.portfolio .wantr {
+  background-image: url(../images/wantr_demo_sc.png);
+  background-size: cover;
+}

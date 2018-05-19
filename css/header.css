@@ -1,0 +1,48 @@
+header {
+  position: relative;
+  height: 80px;
+  background-color: #666f7f;
+  text-align: center;
+  box-shadow: 0 8px 20px -4px rgba(0,0,0,0.4);
+  z-index: 10;
+}
+
+/* only apply this style if this element exists under this other element my dude */
+header .logo {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background-color: red;
+}
+
+header .links {
+  line-height: 80px;
+}
+
+header .links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #a1afc4;
+}
+
+header .links a:hover {
+  color: white;
+}
+
+header .menuicon {
+  display: none;
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  color: white;
+
+}
+
+
+/*  specifiy the parents positon is realtive
+so that you can position the children positions as absolute
+allows you to move the child in the parent element around lol
+*/

@@ -1,0 +1,38 @@
+.about {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  /* 100% always be in persepctve tot he parent element */
+  /* 100vh of the viewport or the visibile space in the browser window */
+  background-image:url(../images/bg.jpg);
+  background-size: cover;
+  /*  what it does, cover this background, but use as little as the image as possible, but try to use as much as possible so that you see most of the image without seing any whitespace*/
+}
+
+.about::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.about .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: 1;
+  letter-spacing: .03em;
+}
+
+.about .content p {
+  color: white;
+  font-size: 1.3em;
+}
+
+.about .content b {
+  color: red;
+}
