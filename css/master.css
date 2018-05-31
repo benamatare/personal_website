@@ -31,7 +31,7 @@ body, p, h1, h2, h3, h4, section {
 h1 {
   font-size: 7em;
   text-transform: uppercase;
-  color: white;
+  color: #E2E2E2;
 }
 
 h2 {
@@ -40,7 +40,7 @@ h2 {
 }
 
 h2 b {
-  color: gray;
+  color: #E2E2E2;
 }
 
 h3 {
@@ -48,7 +48,7 @@ h3 {
 }
 
 h3 a {
-  color: #b5bfce;
+  color: #3B90E4;
   text-decoration: none;
 }
 /* display type by default is in-line, just take up the amount fo space its told to contrain, block turns it into a nice elemt with its own sapve  */

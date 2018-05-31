@@ -4,7 +4,7 @@
   width: 100%;
   /* 100% always be in persepctve tot he parent element */
   /* 100vh of the viewport or the visibile space in the browser window */
-  background-image:url(../images/bg.jpg);
+  background-image:url(../images/bg2.jpg);
   background-size: cover;
   /*  what it does, cover this background, but use as little as the image as possible, but try to use as much as possible so that you see most of the image without seing any whitespace*/
 }

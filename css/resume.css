@@ -2,7 +2,7 @@
   position: relative;
   height: 100vh;
   width: 100%;
-background-color: #2d3446;
+  background-color: #121212;
 }
 
 .resume .content {
@@ -33,7 +33,7 @@ background-color: #2d3446;
   left: 50%;
   transform: translateX(-50%);
   color: white;
-  border: 1px solid red;
+  border: 1px solid #888888;
   font-size: 1.5em;
   padding: 10px;
   text-decoration: none;
@@ -41,4 +41,8 @@ background-color: #2d3446;
   height: auto;
   line-height: auto;
   text-align: center;
+}
+
+.resume .download:hover {
+  color: #FA0013;
 }

@@ -1,6 +1,6 @@
 .portfolio {
   height: 100vh;
-  background-color: #454a5b;
+  background-color: rgb(27,27,27);
 }
 
 .portfolio .content {
@@ -12,7 +12,8 @@
   color: white;
 }
 
-.portfolio .content h3 {
+.portfolio .content h2 {
+  color: #888888;
   margin-bottom: 30px;
 }
 

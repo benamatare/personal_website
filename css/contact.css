@@ -1,6 +1,6 @@
 .contact {
   height: 100vh;
-  background-color: #2d3446;
+  background-color: #121212;
 }
 
 
@@ -13,13 +13,13 @@
 
 .contact .email {
   font-size: 3em;
-  color: #b6c0ce;
+  color: #888888;
   text-decoration: none;
 }
 
 
 .contact .social {
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 3.3em;
   color: white;
   margin-right: 20px;
@@ -31,5 +31,5 @@
   letter-spacing: .03em;
   margin-left: 5px;
   margin-right: 5px;
-  color: #a1afc4;
+  color: #888888;
 }
